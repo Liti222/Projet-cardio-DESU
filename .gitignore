@@ -3,3 +3,15 @@ Data/
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+
+# Données et fichiers lourds : jamais sur GitHub
+Data/
+*.npy
+*.csv
+*.xlsx
+features_par_patient/
+
+# Environnement et fichiers temporaires
+.venv/
+__pycache__/
+.ipynb_checkpoints/
